@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplos de formularios con HTML</title>
+  </head>
+  <body>
+    <form
+      name="form-basic"
+      method="post"
+    >
+      <input type="text" name="nombre" value="Escribe tu nombre" size="15" maxlength="15" disabled>
+      <input type="text" name="Apellidos" value="Escribe tu apellido" size="15" maxlength="15">
+      <input type="text" name="Provincia" value="Escribe tu provincia"size="15" maxlength="15">
+      <textarea name="aficiones" rows="8" cols="20" disabled></textarea>
+
+
+    </form>
+
+
+    <!-- Formulario para login -->
+    <h3>Fuerita de acá</h3>
+    <form class="form-login" method="post">
+      <p>
+      Nombre de usuario:
+      <input type="text" name="username" value="">
+      </p>
+      <p>
+        Contraseña:
+      <input type="password" name="userpass" value="">
+      </p>
+    </form>
+
+    <form class=""  method="post">
+      <p>Elige tu jugador favorito:</p>
+      <input type="radio" name="" value="Karpov">Karpov <br>
+      <input type="radio" name="" value="Kasparov">Kasparov <br>
+      <input type="radio" name="" value="Anand">Anand <br>
+      <input type="radio" name="" value="Fisher">Fisher <br>
+    </form>
+  </body>
+</html>
