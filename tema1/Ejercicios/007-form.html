@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="author" content="GeotakuX">
+    <meta name="generator" content="Atom">
+    <meta name="robots" content="all">
+    <meta name="revisited" content="1day">
+    <meta name="description" content="curso de html para smr">
+    <meta name="keywords" content="html,curso,programacion">
     <title>Ejemplos de formularios con HTML</title>
   </head>
   <body>
@@ -9,13 +15,14 @@
       name="form-basic"
       method="post"
     >
-      <input type="text" name="nombre" value="Escribe tu nombre" size="15" maxlength="15" disabled>
+      <input type="text" name="nombre" value="Escribe tu nombre" size="15" maxlength="15">
       <input type="text" name="Apellidos" value="Escribe tu apellido" size="15" maxlength="15">
-      <input type="text" name="Provincia" value="Escribe tu provincia"size="15" maxlength="15">
+      <input type="text" name="Provincia" value="Escribe tu provincia"size="15" maxlength="15"><br>
+      <center>
       <textarea name="aficiones" rows="8" cols="20" disabled></textarea>
+    </center>
 
 
-    </form>
 
 
     <!-- Formulario para login -->
@@ -29,7 +36,7 @@
         Contraseña:
       <input type="password" name="userpass" value="">
       </p>
-    </form>
+
 
     <form class=""  method="post">
       <p>Elige tu jugador favorito:</p>
@@ -37,6 +44,26 @@
       <input type="radio" name="" value="Kasparov">Kasparov <br>
       <input type="radio" name="" value="Anand">Anand <br>
       <input type="radio" name="" value="Fisher">Fisher <br>
-    </form>
+<br>
+    Indique su profesión (escoja todas las que proceda):
+<br><br>
+      <input type="checkbox" name="medico">Médico <br>
+      <input type="checkbox" name="programador">Programador <br>
+      <input type="checkbox" name="promotor_inmobiliario" checked>Promotor Inmobiliario <br>
+      <input type="checkbox" name="camarero">camarero
+
+<br><br>
+    <select name="color">
+      <option>Rojo</option>
+      <option>Verde</option>
+      <option selected>Azul</option>
+      <option>Amarillo</option>
+    </select>
+    <center>
+
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="Restablecer">
+      </form>
+    </center>
   </body>
 </html>
