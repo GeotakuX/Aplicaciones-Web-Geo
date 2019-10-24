@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Padding</title>
+  </head>
+  <style>
+    div {
+      border: 1px solid black;
+      background-color: lightblue;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;}
+    div.junto {
+      border: 1px solid black;
+      padding: 25px 50px 75px 100px;
+      background-color: lightblue;}
+    div.box {
+      width: 300px;
+      padding: 25px;
+      box-sizing: border-box;
+      background-color: lightblue;}
+  </style>
+  <body>
+    <h1>El Padding es el relleno que hay hasta los bordes</h1>
+    <div>
+      En una iglesia ubicada en una aldea remota del Reino Trébol,
+      viven Asta y Yuno, quienes han sido amigos desde que fueron abandonados
+      de bebés en ese lugar. Yuno posee un enorme poder mágico y es muy hábil
+      para lanzar hechizos; en contraste, Asta nunca ha podido usar magia.
+      En un mundo donde eres juzgado según tu procedencia y poder mágico,
+      Asta busca demostrar que cualquiera puede convertirse en alguien asombroso.
+      Esta es su resolución: convertirse en el Rey Mago.
+      Inspirado por él, Yuno se propone lo mismo.
+    </div>
+    <div class="junto">
+      Todo el relleno lo podemos colocar dentro del mismo padding,
+      sabiendo que es de arriba, derecha, abajo e izquierda.
+      En el sentido de las agujas del reloj.
+    </div>
+    <div class="box">
+      Con el "box-sizing" tiene los márgenes y el padding no puede sobresalir
+      de la caja que le damos los valores.
+    </div>
+  </body>
+</html>
