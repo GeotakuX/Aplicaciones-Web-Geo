@@ -1,0 +1,52 @@
+body {
+  margin-left:35%;
+}
+
+h1 {
+  color: #469C96;
+}
+h2 {
+  color: blue;
+}
+td > strong {
+  color: orange
+}
+b{
+  color: red;
+}
+span[class=naranja] {
+  color:orange;
+}
+u[class="rojo"]{
+  color: red;
+}
+u > em {
+  color:blue;
+}
+span[class=morado]{
+  color: purple;
+}
+caption {
+  color: blue;
+}
+th {
+  color: red;
+}
+th[class=columna]{
+  color: orange;
+}
+th[class=fila]{
+  color:orange
+}
+td {
+  color: green;
+}
+div {
+  color: olive;
+}
+span[id=fuchsia] {
+  color: fuchsia;
+}
+u[class="verde"]{
+  color: green;
+}
