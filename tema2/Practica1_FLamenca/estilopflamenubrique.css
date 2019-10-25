@@ -1,0 +1,36 @@
+body {
+  background-image: url(bg85.gif);
+  text-align:center;
+
+}
+h1 {
+  color:#ff0c0c;
+}
+a {
+  font-size: 20px;
+  font-family: Verdana;
+  color: blue;
+}
+img {
+  border-top: solid;
+  border-right:double;
+  border-bottom: double;
+  border-left: solid;
+  border-width: 3px 2px 2px 2px;
+  border-color: red;
+  padding: 15px;
+  float: left;
+  margin: 20px 10px 15px 26%;
+  width: 20%;
+  align: center
+}
+p {
+  color:brown;
+  font: 36px serif;
+  text-align: justify;
+
+}
+address {
+  font-weight: bold;
+  font-size: 20px;
+}
