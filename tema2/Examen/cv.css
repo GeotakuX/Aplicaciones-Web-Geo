@@ -14,6 +14,9 @@ a.mail {
 table {
   width: 90%;
 }
+td.links {
+  width: 50px; height: 50px;
+}
 div {
   width: 104%;
   margin-left: 5.2%;
@@ -21,8 +24,9 @@ div {
   background-size: 86.3%;
   background-image: url(sky.png);
 }
-td > h2 {
+h2 {
   background-color: #05175E;
+  background-width: 10px;
 }
 p.enlacecv {
   color: white;
