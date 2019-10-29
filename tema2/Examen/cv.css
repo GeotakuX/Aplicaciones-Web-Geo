@@ -1,0 +1,42 @@
+body{
+  background-color: #05175E;
+  text-align: right;
+  margin: 20px;
+}
+a {
+  text-align: right;
+  color: white;
+  text-decoration: none;
+}
+a.mail {
+  margin-right: 20px;
+}
+table {
+  width: 90%;
+}
+div {
+  width: 104%;
+  margin-left: 5.2%;
+  background-repeat: no-repeat;
+  background-size: 86.3%;
+  background-image: url(sky.png);
+}
+td > h2 {
+  background-color: #05175E;
+}
+p.enlacecv {
+  color: white;
+  border-top-style: solid;
+  border-width: 1px;
+}
+p.imagen{
+  color:white;
+
+}
+hr {
+  size: 1px;
+  color: white;
+}
+tr.cuerpo {
+  background-color: white;
+}
